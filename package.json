@@ -1,0 +1,33 @@
+{
+  "name": "sap",
+  "version": "1.0.0",
+  "description": "Sentiment Analysis Project (my graduate project).",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_ENV=dev nodemon src/index.js",
+    "prod": "NODE_ENV=prod node src/index.js"
+  },
+  "keywords": [
+    "Sentiment",
+    "Analysis",
+    "Project",
+    "Google-nlp"
+  ],
+  "author": "Joshua, Li",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/language": "^5.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "ip": "^1.1.8",
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.3.0",
+    "pino": "^8.10.0",
+    "pino-pretty": "^9.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
