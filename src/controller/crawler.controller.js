@@ -5,7 +5,7 @@ import QUERY from '../query/sap.query.js';
 import HttpStatus from './HttpStatus.js';
 
 //Adding a new keyword to 'keywords' table.
-export const addKeyword = (req, res) => {
+export const addcachekeyword = (req, res) => {
   
   logger.info(`${req.method} ${req.originalUrl}, adding keyword`);
 
@@ -24,3 +24,7 @@ export const addKeyword = (req, res) => {
 };
 
 //Fetching keyword.
+export const getKeyword = (req, res) => {
+  
+  logger.info(`${req.method} ${req.originalUrl}, fetching keyword`)
+};
