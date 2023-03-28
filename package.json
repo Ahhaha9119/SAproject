@@ -1,0 +1,38 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "college project.",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=dev nodemon src/index.js",
+    "prod": "NODE_ENV=prod node src/index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "python",
+    "google-nlp"
+  ],
+  "author": "ahhaha9191",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/language": "^5.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "ip": "^1.1.8",
+    "load-json-file": "^7.0.1",
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.3.1",
+    "pino": "^8.11.0",
+    "pino-pretty": "^10.0.0",
+    "require": "^2.4.20",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}

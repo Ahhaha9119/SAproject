@@ -1,0 +1,16 @@
+{
+  "packages": [
+    {
+      "keyword": "test",
+      "contents": [
+        {
+          "content": "hello world",
+          "sa_results": {
+            "score": 1,
+            "magnitude": 1
+          }
+        }
+      ]
+    }
+  ]
+}
